@@ -1,0 +1,116 @@
+#contactsPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.contactTitle {
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.clientDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 2rem 1rem;
+}
+
+.skillImgs {
+    margin: 1rem 0;
+    display: flex;
+}
+
+.skillImg {
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+    flex-wrap: wrap;
+}
+
+#techStack {
+    padding-bottom: 2rem;
+}
+
+
+.cvBtn {
+    font-size: 1rem;
+    color: black;
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    align-items: center;
+    height: 2rem;
+    width: 10rem;
+
+}
+
+.cvImg {
+    object-fit: cover;
+    margin: 0rem 0.75rem;
+    height: 2rem;
+    align-items: center;
+
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 90vw;
+    max-width: 60rem;
+
+}
+
+.name,
+.email,
+.message {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socials {
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+    margin: 0 0.75rem;
+}

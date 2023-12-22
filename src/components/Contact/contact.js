@@ -3,6 +3,10 @@ import nodeLogo from '../../assets/nodeLogo.png'
 import react from '../../assets/react-symbol.png'
 import gitLogo from '../../assets/git-logo.png'
 import nestLogo from '../../assets/nestJS.png'
+import jsIcon from '../../assets/all.png'
+import sql from '../../assets/sql.png'
+import pythonLogo from '../../assets/pythonLogo.png'
+import graphQL from '../../assets/graphQL.png'
 import githubIcon from '../../assets/github-logo.png'
 import InstaIcon from '../../assets/instagram.png'
 import xIcon from '../../assets/x-icon.png'
@@ -35,10 +39,16 @@ const Contact = () => {
                     Full Stack Developer with hands-on experience on designing, developing,
                     and implementing applications and solutions using a range of technologies and familiarity with various languages and tools.
                 </p>
-                <div className='skillImgs'>
+                <div className='skillImgs1'>
                     <img className='skillImg' src={react} alt='skills'></img>
                     <img className='skillImg' src={nestLogo} alt='skills'></img>
+                    <img className='skillImg' src={graphQL} alt='skills'></img>
+                    <img className='skillImg' src={jsIcon} alt='skills'></img>
+                </div>
+                <div className='skillImgs2'>
                     <img className='skillImg' src={nodeLogo} alt='skills'></img>
+                    <img className='skillImg' src={pythonLogo} alt='skills'></img>
+                    <img className='skillImg' src={sql} alt='skills'></img>
                     <img className='skillImg' src={gitLogo} alt='skills'></img>
                 </div>
                 <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1BHXiQmV2Y3jZidGY2jQbACLsvLAdyYV5/view?usp=drive_link'><button className='cvBtn'><img className='cvImg' src={hireme} alt='CV' ></img>CV Download</button></a>

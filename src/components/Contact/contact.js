@@ -58,8 +58,8 @@ const Contact = () => {
                 <h1 className='contactTitle'>Contact</h1>
                 <span className='contactDesc'>Contact me via email for more Info</span>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                    <input className='name' type='text' placeholder='Your name' name='from_name'></input>
-                    <input className='email' type='email' placeholder='Your Email' name='from_email'></input>
+                    <input className='name' type='text' placeholder='Your name' name='from_name' required ></input>
+                    <input className='email' type='email' placeholder='Your Email' name='from_email' required></input>
                     <textarea className='message' placeholder='Your message' rows={4} ></textarea>
                     <button className='submitBtn' type='submit' value="Send">Send</button>
                     <div className='links'>

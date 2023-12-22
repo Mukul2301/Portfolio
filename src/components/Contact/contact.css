@@ -39,6 +39,11 @@
 
 #techStack {
     padding-bottom: 2rem;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
 }
 
 
@@ -113,4 +118,16 @@
     width: 3rem;
     object-fit: cover;
     margin: 0 0.75rem;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .skillImgs {
+        flex-direction: column;
+        overflow: hidden;
+        width: 100vw;
+        max-width: 65rem;
+    }
+
 }

@@ -88,4 +88,22 @@
     .desktopBtnImg {
         justify-content: flex-end;
     }
+
+}
+
+@media screen and (max-width:915px) {
+    .bg {
+        right: -10rem;
+        height: 60vh;
+
+
+    }
+
+    #intro {
+        height: calc(100vh - 15rem);
+
+
+    }
+
+
 }
